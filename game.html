@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Games Made For True Gamers!</title>
+  <meta name="title" content="Unigine - Epic Games Made For True Gamers!">
+  <meta name="description" content="This is an esports and gaming html template made by codewithsadee">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="game.css">
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png">
+</head>
+<body id="top">
+  <header class="header active" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="110" height="53" alt="HOME">
+      </a>
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#tournament" class="navbar-link" data-nav-link>tournament</a>
+          </li>
+          
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>contact</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#" class="btn" data-btn>Join Us</a>
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+    </div>
+  </header>
+  <main>
+    <article>
+      <div class="hero has-before" id="home">
+        <div class="container">
+
+          <p class="section-subtitle">DIVESH Games</p>
+
+          <h1 class="h1 title hero-title">Epic Games Made For Gamers <br> By a 6ft Human </h1>
+
+          <a href="#" class="btn" data-btn>Join With Me</a>
+
+          <div class="hero-banner">
+            <img
+              src="data:image/jpeg;base64,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"
+              width="850" height="414" alt="" class="w-100">
+
+            <img src="./assets/images/hero-banner-bg.png" alt="" class="hero-banner-bg">
+          </div>
+        </div>
+      </div>
+      <section class="section upcoming" aria-labelledby="upcoming-label" id="tournament">
+        <div class="container">
+
+          <p class="section-subtitle" id="upcoming-label" data-reveal="bottom">
+            Upcoming Battle
+          </p>
+          <h2 class="h2 section-title" data-reveal="bottom">
+            Battles <br> <span class="span">Tournament</span>
+          </h2>
+
+          <p class="section-text" data-reveal="bottom">
+            Our aim is to organizing gaming tournament in an easy and fluent way for the user.
+          </p>
+
+          <ol class="upcoming-list">
+
+            <li class="upcoming-item">
+
+              <div class="upcoming-card left has-before" data-reveal="left">
+
+                <img src="./assets/images/team-logo-1.png" width="86" height="81" loading="lazy"
+                  alt="Purple Death Cadets" class="card-banner">
+
+                <h3 class="h3 card-title">BATCH A</h3>
+
+                <div class="card-meta">Group 04 | Match 06th</div>
+
+              </div>
+
+              <div class="upcoming-time" data-reveal="bottom">
+                <time class="time" datetime="10:00">10:00</time>
+
+                <time class="date" datetime="2022-05-25">25TH May 2024</time>
+
+                <div class="social-wrapper">
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                    <ion-icon name="logo-twitch"></ion-icon>
+                  </a>
+
+                  <a href="#" class="social-link">
+
+                  </a>
+                </div>
+              </div>
+
+              <div class="upcoming-card right has-before" data-reveal="right">
+
+                <img src="./assets/images/team-logo-2.png" width="86" height="81" loading="lazy"
+                  alt="Trigger Brain Squad" class="card-banner">
+
+                <h3 class="h3 card-title">BATCH B</h3>
+
+                <div class="card-meta">Group 04 | Match 06th</div>
+
+              </div>
+
+            </li>
+
+            <li class="upcoming-item">
+
+              <div class="upcoming-card left has-before" data-reveal="left">
+
+                <img src="./assets/images/team-logo-3.png" width="86" height="81" loading="lazy"
+                  alt="The Black Hat Hackers" class="card-banner">
+
+                <h3 class="h3 card-title">BATCH C</h3>
+
+                <div class="card-meta">Group 05 | Match 02nd</div>
+
+              </div>
+
+              <div class="upcoming-time" data-reveal="bottom">
+                <time class="time" datetime="12:30">12:30</time>
+
+                <time class="date" datetime="2024-01-10">10TH Jan 2024</time>
+
+                <div class="social-wrapper">
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                    <ion-icon name="logo-twitch"></ion-icon>
+                  </a>
+
+                  <a href="#" class="social-link">
+
+                  </a>
+                </div>
+              </div>
+              <div class="upcoming-card right has-before" data-reveal="right">
+
+                <img src="./assets/images/team-logo-4.png" width="86" height="81" loading="lazy"
+                  alt="Your Worst Nightmare" class="card-banner">
+
+                <h3 class="h3 card-title">BATCH D</h3>
+
+                <div class="card-meta">Group 05 | Match 02nd</div>
+
+              </div>
+
+            </li>
+
+            <li class="upcoming-item">
+
+              <div class="upcoming-card left has-before" data-reveal="left">
+
+                <img src="./assets/images/team-logo-5.png" width="86" height="81" loading="lazy"
+                  alt="Witches And Quizard" class="card-banner">
+
+                <h3 class="h3 card-title">WINNER OF FIRST GROUP</h3>
+
+                <div class="card-meta">Group 02 | Match 03rd</div>
+
+              </div>
+
+              <div class="upcoming-time" data-reveal="bottom">
+                <time class="time" datetime="04:20">04:20</time>
+
+                <time class="date" datetime="2024-12-15">15th Dec 2024</time>
+
+                <div class="social-wrapper">
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                    <ion-icon name="logo-twitch"></ion-icon>
+                  </a>
+
+                  <a href="#" class="social-link">
+
+                  </a>
+                </div>
+              </div>
+
+              <div class="upcoming-card right has-before" data-reveal="right">
+
+                <img src="./assets/images/team-logo-6.png" width="86" height="81" loading="lazy"
+                  alt="Resting Bitch Faces" class="card-banner">
+
+                <h3 class="h3 card-title">WINNER OF SECOND GROUP</h3>
+
+                <div class="card-meta">Group 02 | Match 03rd</div>
+
+              </div>
+
+            </li>
+
+          </ol>
+
+        </div>
+      </section>
+      <section class="section news" aria-label="our latest news" id="news">
+        <div class="container">
+
+          <p class="section-subtitle" data-reveal="bottom"></p>
+
+          <h2 class="h2 section-title" data-reveal="bottom">
+            Tips And <span class="span">Tricks</span>
+          </h2>
+
+          <p class="section-text" data-reveal="bottom">
+            Our success in creating gaming solutions in large scale to our talented and highly skilled gamers.
+          </p>
+
+          <ul class="news-list">
+
+            <li data-reveal="bottom">
+              <div class="news-card">
+              </div>
+            </li>
+
+            <li data-reveal="bottom">
+              <div class="news-card">
+              </div>
+            </li>
+
+            <li data-reveal="bottom">
+              <div class="news-card">
+
+        >
+                <div class="card-content">
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">DIVESH TAYADE</p>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Gaming expert</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Gaming experts support or help you to to find out which way you can raise your gaming skills more...
+                  </p>
+
+                  <a href=""></a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+  <footer class="footer">
+
+    <div class="section footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="game.jpg" width="150" height="73" loading="lazy" alt="Unigine logo">
+          </a>
+
+          <p class="footer-text">
+            Our Duty is to Teach gaming and organising gaming tournament for fun
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.insatgram.com/divesh_tayade_" target=_blank class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-list">
+
+          <p class="title footer-list-title has-after">Usefull Links</p>
+
+          <ul>
+
+            <li>
+              <a href="#" class="footer-link">Tournaments</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Help Center</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Privacy and Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms of Use</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact Us</a>
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="footer-list">
+
+          <p class="title footer-list-title has-after">Contact Us </p>
+
+          <div class="contact-item">
+            <span class="span">Location:</span>
+
+            <address class="contact-link">
+              DHARAMPETH, NAGPUR , MAHARASHTRA
+            </address>
+          </div>
+
+          <div class="contact-item">
+            <span class="span">Join Us:</span>
+
+            <a href="mailto:Info@gamehive.com" class="contact-link">Divesh@gaming.com</a>
+          </div>
+
+          <div class="contact-item">
+            <span class="span">Phone:</span>
+
+            <a href="tel:+12345678910" class="contact-link">+917840979647</a>
+          </div>
+
+        </div>
+
+        <div class="footer-list">
+
+          <p class="title footer-list-title has-after"> Signup</p>
+
+          <form action="./index.html" method="get" class="footer-form">
+            <input type="email" name="email_address" required placeholder="Your Email" autocomplete="off"
+              class="input-field">
+
+            <button type="submit" class="btn" data-btn>Subscribe Now</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 coding.Divesh All Rights Reserved.
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+  <div class="cursor" data-cursor></div>
+  <script src="game.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
